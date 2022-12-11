@@ -1,0 +1,15 @@
+.todo-box {
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 250px;
+}
+.todo-form {
+	border: 1px solid blue;
+	border-radius: 15px;
+	padding: 20px 30px;
+}
+.filter-form {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}

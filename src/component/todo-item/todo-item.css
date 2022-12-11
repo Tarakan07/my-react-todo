@@ -1,0 +1,31 @@
+.todo-item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.todo-item {
+	display: flex;
+	justify-content: center;
+}
+.todo-item span {
+	display: block;
+	width: 200px;
+	font-size: 25px;
+	cursor: pointer;
+}
+.todo-item span.important {
+	color: blue;
+	font-weight: bold;
+}
+.todo-item span.done {
+	text-decoration: line-through;
+}
+.todo-item button {
+	background: none;
+	outline: none;
+
+	border: 1px solid transparent;
+}
+.todo-item button:hover {
+	cursor: pointer;
+	border: 1px solid blue;
+	border-radius: 10px;
+}

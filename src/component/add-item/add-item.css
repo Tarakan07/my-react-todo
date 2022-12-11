@@ -1,0 +1,24 @@
+.add-item {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+.add-item input {
+	outline: none;
+	border: 1px solid blue;
+	border-radius: 2px;
+	font-size: 15px;
+	margin-right: 10px;
+}
+
+.add-item button {
+	background: transparent;
+	outline: none;
+	border: 1px solid blue;
+	border-radius: 15px;
+	padding: 5px 10px;
+}
+.add-item button:hover {
+	transition: 0.5s;
+	background-color: blue;
+}
